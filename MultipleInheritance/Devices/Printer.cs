@@ -10,11 +10,12 @@ namespace MultipleInheritance.Devices
     {
         public override void ProcessDoc(string document)
         {
-
+            Console.WriteLine("Process doc Printer: " + document);
         }
         public void Print(string document)
         {
-            Console.WriteLine(document);
+            Console.WriteLine("Print of printer: " + document);
+            
         }
 
     }

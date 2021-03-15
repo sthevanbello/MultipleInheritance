@@ -10,7 +10,7 @@ namespace MultipleInheritance.Devices
     {
         public override void ProcessDoc(string document)
         {
-
+            Console.WriteLine("Process Doc Scanner: " + document);
         }
 
         public string Scan()
